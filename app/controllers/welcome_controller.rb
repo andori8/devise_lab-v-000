@@ -3,6 +3,6 @@ class WelcomeController < ApplicationController
   end
 
   def about
-    render "text" => "About the Website"
+    render :text => "About the Website"
   end
 end
